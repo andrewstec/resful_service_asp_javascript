@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="262d6204690a4a368de6f8441e7e124f" Name="Diagram1">
+        <EntityTypeShape EntityType="FoodStore743Model.Building" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="FoodStore743Model.Employee" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FoodStore743Model.Invoice" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="FoodStore743Model.Manufacturer" Width="1.5" PointX="5.25" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FoodStore743Model.Product" Width="1.5" PointX="7.5" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FoodStore743Model.ProductInvoiceWithQuantity" Width="3" PointX="10.125" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FoodStore743Model.PurchaseOrder" Width="1.5" PointX="5.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FoodStore743Model.Store" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FoodStore743Model.Supplier" Width="1.5" PointX="5.25" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FoodStore743Model.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="FoodStore743Model.FK__Store__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="FoodStore743Model.FK__Employee__branch__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="FoodStore743Model.FK__Invoice__branch__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="FoodStore743Model.FK__ProductIn__invoi__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="FoodStore743Model.FK__Product__mfg__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="FoodStore743Model.FK__Product__vendor__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="FoodStore743Model.FK__ProductIn__produ__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="FoodStore743Model.FK__PurchaseO__branc__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="FoodStore743Model.ProductInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="FoodStore743Model.ProductPurchaseOrder" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

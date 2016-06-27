@@ -1,0 +1,14 @@
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2016-01-14 00:10:03
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2016-01-14 00:10:03 W3SVC4221 BROWN 143.95.251.3 GET /api/Products - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.106+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 1247 318 6640
+2016-01-14 00:10:03 W3SVC4221 BROWN 143.95.251.3 GET /api/Products - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.106+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 1247 318 609
+2016-01-14 00:10:06 W3SVC4221 BROWN 143.95.251.3 GET /api/Products - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.106+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 1247 318 328
+2016-01-14 00:10:32 W3SVC4221 BROWN 143.95.251.3 GET /api/Products/4 - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.106+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 479 363 796
+2016-01-14 00:10:57 W3SVC4221 BROWN 143.95.251.3 OPTIONS /api/Products/1 - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.106+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 321 414 453
+2016-01-14 00:10:58 W3SVC4221 BROWN 143.95.251.3 PUT /api/Products/1 - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.106+Safari/537.36 - restfulservice.funkyprogrammer.com 204 0 0 231 472 859
+2016-01-14 00:10:58 W3SVC4221 BROWN 143.95.251.3 GET /api/Products - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.106+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 1245 318 234
+2016-01-14 00:11:03 W3SVC4221 BROWN 143.95.251.3 OPTIONS /api/Products/1 - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.106+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 321 414 249
+2016-01-14 00:11:04 W3SVC4221 BROWN 143.95.251.3 PUT /api/Products/1 - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.106+Safari/537.36 - restfulservice.funkyprogrammer.com 204 0 0 231 472 515
+2016-01-14 00:11:05 W3SVC4221 BROWN 143.95.251.3 GET /api/Products - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.106+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 1245 318 843

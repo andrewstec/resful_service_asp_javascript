@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<head>
+    <title>Restful Services</title>
+
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="~/Scripts/app.js"></script>
+
+    <style>
+        body {
+            color: white;
+            background-color: teal;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        #list_of_products {
+            display: inline-block;
+            margin: auto;
+            text-align: center;
+        }
+
+        #SearchIDArea {
+        }
+
+        #buttonUpdate {
+            margin-top: 20px;
+        }
+
+        #findID {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Product Listing</h2>
+    <form method="get" action="api/Products">
+        <span id="list_of_products">To load or refresh the list of products, please press the button below: </span>
+        <br />
+        <input style="margin-top: 15px;" type="button" value="List Products" onclick="sendRequest()" />
+    </form>
+    <h2>Search Products</h2>
+    <div id="SearchIDArea">
+        <input type="text" id="IDtoFind" />
+        <br><input type="button" onclick="find()" value="Find ID" id="findID" />
+        <p id="IDSearchResults"></p>
+    </div>
+
+    <div id="UpdatingArea">
+        <h2>Update Products</h2>
+        <label for="product_id">Product ID: </label>
+        <input type="text" id="product_id" /><br />
+        <label for="product_name">Product Name: </label>
+        <input type="text" id="product_name" /><br />
+        <label for="product_manufacturer">Product Manufacturer: </label>
+        <select name="product_manufacturer_list" id="product_manufacturer">
+            <option value="Duncan Hines">Duncan Hines</option>
+            <option value="Florida Orange">Florida Orange</option>
+            <option value="Hot House">Hot House</option>
+            <option value="McCain">McCain</option>
+            <option value="Pilsbury">Pilsbury</option>
+        </select><br />
+        <label for="product_vendor_list">Product Vendor: </label>
+        <select name="product_vendor_list" id="product_vendor_list">
+            <option value="GFS">GFS</option>
+            <option value="Sysco">Sysco</option>
+        </select><br />
+        <label for="product_price">Product Price: </label>
+        <input type="text" id="product_price" /><br />
+        <input type="button" value="Update Entry" onclick="update()" id="buttonUpdate" />
+        <p id="UpdateStatus"></p>
+    </div>
+    <h2>Delete Products</h2>
+    <p>To delete a product, please enter the product ID found under "Your Product Listing".</p>
+    <div id="DeletingArea">
+        <input type="text" id="product_delete_id" />
+        <input type="button" value="Remove ID" onclick="del()" />
+        <p id="UpdateDeleteStatus"></p>
+    </div>
+</body>
+

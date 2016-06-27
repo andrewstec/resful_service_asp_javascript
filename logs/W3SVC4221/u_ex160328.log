@@ -1,0 +1,29 @@
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2016-03-28 04:38:59
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2016-03-28 04:38:58 W3SVC4221 BROWN 143.95.251.3 GET / - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 3314 392 1593
+2016-03-28 04:38:59 W3SVC4221 BROWN 143.95.251.3 GET /Scripts/app.js - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 200 0 0 3639 358 140
+2016-03-28 04:38:59 W3SVC4221 BROWN 143.95.251.3 GET /favicon.ico - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 404 0 2 1405 355 109
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2016-03-28 16:32:01
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2016-03-28 16:32:01 W3SVC4221 BROWN 143.95.251.3 GET / - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 3314 392 1828
+2016-03-28 16:32:01 W3SVC4221 BROWN 143.95.251.3 GET /favicon.ico - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 404 0 2 1405 355 78
+2016-03-28 16:32:06 W3SVC4221 BROWN 143.95.251.3 GET /api/Products - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 200 0 0 1215 390 2890
+2016-03-28 16:32:11 W3SVC4221 BROWN 143.95.251.3 GET /api/Products - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 200 0 0 1215 390 124
+2016-03-28 16:32:12 W3SVC4221 BROWN 143.95.251.3 GET /api/Products - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 200 0 0 1215 390 125
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2016-03-28 17:54:05
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2016-03-28 17:54:05 W3SVC4221 BROWN 143.95.251.3 GET / - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 3314 392 1499
+2016-03-28 17:57:57 W3SVC4221 BROWN 143.95.251.3 GET / - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 3314 418 124
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2016-03-28 18:53:59
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2016-03-28 18:53:58 W3SVC4221 BROWN 143.95.251.3 GET / - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 3314 418 1406
+2016-03-28 19:05:50 W3SVC4221 BROWN 143.95.251.3 GET /Scripts/app.js - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - restfulservice.funkyprogrammer.com 304 0 0 165 518 124
+2016-03-28 19:14:55 W3SVC4221 BROWN 143.95.251.3 GET /Scripts/app.js - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - restfulservice.funkyprogrammer.com 304 0 0 165 518 124

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FoodStore743ModelStoreContainer" CdmEntityContainer="FoodStore743Entities">
+    <EntitySetMapping Name="Buildings">
+      <EntityTypeMapping TypeName="FoodStore743Model.Building">
+        <MappingFragment StoreEntitySet="Building">
+          <ScalarProperty Name="building_name" ColumnName="building_name" />
+          <ScalarProperty Name="unit_num" ColumnName="unit_num" />
+          <ScalarProperty Name="capacity" ColumnName="capacity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="FoodStore743Model.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="employee_id" ColumnName="employee_id" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="branch" ColumnName="branch" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Invoices">
+      <EntityTypeMapping TypeName="FoodStore743Model.Invoice">
+        <MappingFragment StoreEntitySet="Invoice">
+          <ScalarProperty Name="invoiceNum" ColumnName="invoiceNum" />
+          <ScalarProperty Name="branch" ColumnName="branch" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Manufacturers">
+      <EntityTypeMapping TypeName="FoodStore743Model.Manufacturer">
+        <MappingFragment StoreEntitySet="Manufacturer">
+          <ScalarProperty Name="mfg" ColumnName="mfg" />
+          <ScalarProperty Name="mfgDiscount" ColumnName="mfgDiscount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="FoodStore743Model.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="productID" ColumnName="productID" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="mfg" ColumnName="mfg" />
+          <ScalarProperty Name="vendor" ColumnName="vendor" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductInvoiceWithQuantities">
+      <EntityTypeMapping TypeName="FoodStore743Model.ProductInvoiceWithQuantity">
+        <MappingFragment StoreEntitySet="ProductInvoiceWithQuantity">
+          <ScalarProperty Name="productID" ColumnName="productID" />
+          <ScalarProperty Name="invoiceNum" ColumnName="invoiceNum" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseOrders">
+      <EntityTypeMapping TypeName="FoodStore743Model.PurchaseOrder">
+        <MappingFragment StoreEntitySet="PurchaseOrder">
+          <ScalarProperty Name="po_num" ColumnName="po_num" />
+          <ScalarProperty Name="branch" ColumnName="branch" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stores">
+      <EntityTypeMapping TypeName="FoodStore743Model.Store">
+        <MappingFragment StoreEntitySet="Store">
+          <ScalarProperty Name="branch" ColumnName="branch" />
+          <ScalarProperty Name="region" ColumnName="region" />
+          <ScalarProperty Name="building_name" ColumnName="building_name" />
+          <ScalarProperty Name="unit_num" ColumnName="unit_num" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="FoodStore743Model.Supplier">
+        <MappingFragment StoreEntitySet="Supplier">
+          <ScalarProperty Name="vendor" ColumnName="vendor" />
+          <ScalarProperty Name="supplier_email" ColumnName="supplier_email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="FoodStore743Model.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="ProductInvoice" TypeName="FoodStore743Model.ProductInvoice" StoreEntitySet="ProductInvoice">
+      <EndProperty Name="Invoice">
+        <ScalarProperty Name="invoiceNum" ColumnName="invoiceNum" />
+      </EndProperty>
+      <EndProperty Name="Product">
+        <ScalarProperty Name="productID" ColumnName="productID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ProductPurchaseOrder" TypeName="FoodStore743Model.ProductPurchaseOrder" StoreEntitySet="ProductPurchaseOrder">
+      <EndProperty Name="PurchaseOrder">
+        <ScalarProperty Name="po_num" ColumnName="po_num" />
+      </EndProperty>
+      <EndProperty Name="Product">
+        <ScalarProperty Name="productID" ColumnName="productID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="spFindEmployee" FunctionName="FoodStore743Model.Store.spFindEmployee">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FoodStore743Model.spFindEmployee_Result">
+          <ScalarProperty Name="employee_id" ColumnName="employee_id" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="branch" ColumnName="branch" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spFindProduct" FunctionName="FoodStore743Model.Store.spFindProduct">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FoodStore743Model.spFindProduct_Result">
+          <ScalarProperty Name="productID" ColumnName="productID" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spGetAllProducts" FunctionName="FoodStore743Model.Store.spGetAllProducts">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FoodStore743Model.spGetAllProducts_Result">
+          <ScalarProperty Name="productID" ColumnName="productID" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="mfg" ColumnName="mfg" />
+          <ScalarProperty Name="vendor" ColumnName="vendor" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spProductDetail" FunctionName="FoodStore743Model.Store.spProductDetail">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FoodStore743Model.spProductDetail_Result">
+          <ScalarProperty Name="productID" ColumnName="productID" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="mfg" ColumnName="mfg" />
+          <ScalarProperty Name="vendor" ColumnName="vendor" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spStoresByRegion" FunctionName="FoodStore743Model.Store.spStoresByRegion">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FoodStore743Model.spStoresByRegion_Result">
+          <ScalarProperty Name="region" ColumnName="region" />
+          <ScalarProperty Name="building_name" ColumnName="building_name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="FoodStore743Model.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="FoodStore743Model.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="FoodStore743Model.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="FoodStore743Model.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FoodStore743Model.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="FoodStore743Model.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FoodStore743Model.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="FoodStore743Model.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="FoodStore743Model.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

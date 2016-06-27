@@ -1,0 +1,7 @@
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2016-01-25 01:23:16
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2016-01-25 01:23:15 W3SVC4221 BROWN 143.95.251.3 GET / - 80 - 199.119.235.221 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.111+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 3314 393 1609
+2016-01-25 01:23:16 W3SVC4221 BROWN 143.95.251.3 GET /Scripts/app.js - 80 - 199.119.235.221 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.111+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 200 0 0 3639 359 124
+2016-01-25 01:23:16 W3SVC4221 BROWN 143.95.251.3 GET /favicon.ico - 80 - 199.119.235.221 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.111+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 404 0 2 1405 356 124

@@ -1,0 +1,39 @@
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2016-03-17 02:42:39
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2016-03-17 02:42:39 W3SVC4221 BROWN 143.95.251.3 GET / - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 3314 392 1593
+2016-03-17 02:42:39 W3SVC4221 BROWN 143.95.251.3 GET /Scripts/app.js - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 200 0 0 3639 358 156
+2016-03-17 02:42:39 W3SVC4221 BROWN 143.95.251.3 GET /favicon.ico - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 404 0 2 1405 355 187
+2016-03-17 02:42:44 W3SVC4221 BROWN 143.95.251.3 GET /api/Products - 80 - 69.172.151.226 Mozilla/5.0+(Windows+NT+10.0;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 200 0 0 1215 390 2749
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2016-03-17 19:38:20
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2016-03-17 19:38:19 W3SVC4221 BROWN 143.95.251.3 GET / - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 3314 392 1499
+2016-03-17 19:38:19 W3SVC4221 BROWN 143.95.251.3 GET /Scripts/app.js - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 200 0 0 3639 358 62
+2016-03-17 19:38:20 W3SVC4221 BROWN 143.95.251.3 GET /favicon.ico - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 404 0 2 1405 355 62
+2016-03-17 19:38:30 W3SVC4221 BROWN 143.95.251.3 GET /api/Products - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 200 0 0 1215 390 2734
+2016-03-17 19:38:41 W3SVC4221 BROWN 143.95.251.3 GET /api/Products/cake - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 400 0 0 256 438 359
+2016-03-17 19:38:54 W3SVC4221 BROWN 143.95.251.3 GET /api/Products/cake+mix - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 400 0 0 256 444 281
+2016-03-17 19:39:01 W3SVC4221 BROWN 143.95.251.3 GET / - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 3314 418 62
+2016-03-17 19:39:01 W3SVC4221 BROWN 143.95.251.3 GET /Scripts/app.js - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 304 0 0 165 470 265
+2016-03-17 19:39:12 W3SVC4221 BROWN 143.95.251.3 GET /api/Products/cake+mix - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 400 0 0 256 444 265
+2016-03-17 19:39:18 W3SVC4221 BROWN 143.95.251.3 GET /api/Products - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 200 0 0 1215 390 62
+2016-03-17 19:39:23 W3SVC4221 BROWN 143.95.251.3 GET /api/Products/1 - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 200 0 0 449 435 640
+2016-03-17 19:39:35 W3SVC4221 BROWN 143.95.251.3 GET /api/Products/1,2 - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 400 0 0 256 437 265
+2016-03-17 19:40:05 W3SVC4221 BROWN 143.95.251.3 GET / - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 3314 418 78
+2016-03-17 19:40:05 W3SVC4221 BROWN 143.95.251.3 GET /Scripts/app.js - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.103+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 304 0 0 165 470 265
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2016-03-17 21:19:37
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2016-03-17 21:19:36 W3SVC4221 BROWN 143.95.251.3 GET / - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.116+Safari/537.36 - restfulservice.funkyprogrammer.com 200 0 0 3314 404 1515
+2016-03-17 21:19:36 W3SVC4221 BROWN 143.95.251.3 GET /Scripts/app.js - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.116+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 200 0 0 3639 370 218
+2016-03-17 21:19:37 W3SVC4221 BROWN 143.95.251.3 GET /favicon.ico - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.116+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 404 0 2 1405 367 62
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2016-03-17 21:52:01
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2016-03-17 21:52:00 W3SVC4221 BROWN 143.95.251.3 GET /api/Products - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.116+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 200 0 0 1215 402 4624
+2016-03-17 21:52:00 W3SVC4221 BROWN 143.95.251.3 GET /api/Products - 80 - 209.205.99.154 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/48.0.2564.116+Safari/537.36 http://restfulservice.funkyprogrammer.com/ restfulservice.funkyprogrammer.com 200 0 0 1215 402 78
